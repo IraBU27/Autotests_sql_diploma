@@ -17,4 +17,3 @@ SELECT id,
  END AS status 
 FROM "Orders";
 ```
-Скриншот "скриншот_рез-т_теста.jpg" не актуальный. Смотреть "Screenscot_pytest.jpg"
