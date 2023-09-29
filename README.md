@@ -1,7 +1,7 @@
 # Autotests_sql_diploma
 SQL-запросы:
 ```sh
-SELECT c.login, COUNT(o."inDelivery") AS "countOrder"
+SELECT c.login, COUNT(o.track) AS "countOrder"
 FROM "Couriers" AS c
 INNER JOIN "Orders" AS o ON c.id=o."courierId"
 WHERE o."inDelivery"=true
